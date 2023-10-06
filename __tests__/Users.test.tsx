@@ -28,12 +28,6 @@ describe('Users Component', () => {
     render(<Users />);
     const error = await screen.findByText('Error fetching users');
 
-
-
-
-
-
-
     expect(error).toBeInTheDocument();
   });
 });
